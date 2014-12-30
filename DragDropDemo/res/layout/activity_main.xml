@@ -1,0 +1,33 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:padding="10dp"
+    tools:context="com.humoule.dragdrop.MainActivity" >
+
+    <ImageView
+        android:id="@+id/determinedImage"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:contentDescription="@string/image_description"
+        android:src="@drawable/determined_face" />
+
+    <ImageView
+        android:id="@+id/laghingImage"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:contentDescription="@string/image_description"
+        android:src="@drawable/laughing_face" />
+
+    <ImageView
+        android:id="@+id/dropImage"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:contentDescription="@string/image_description" />
+
+</RelativeLayout>
